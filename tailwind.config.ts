@@ -12,8 +12,21 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          sm: "100%",
+          lg: "1440px",
+        },
+      },
+      fontFamily: {
+        playwrite: `Playwrite IN, serif`,
+      },
+      
     },
   },
   plugins: [],
 };
+
 export default config;
