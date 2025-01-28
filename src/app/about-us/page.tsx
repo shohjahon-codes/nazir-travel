@@ -4,7 +4,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
- 
+
 } from "@/components/ui/carousel";
 
 import Image from "next/image";
@@ -67,90 +67,86 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-6 py-[140px]  bg-orange-300">
+
+
+      <div className="flex flex-wrap justify-center items-center gap-6 py-[140px] bg-orange-300 p-6">
         {/* Birinchi karta */}
-        <Card className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-60 ">
-          <CardContent className="flex flex-col items-center gap-4">
+        <div className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-full sm:w-60 h-40">
+          <div className="flex flex-col items-center gap-4 h-full justify-center">
             <p className="text-lg font-semibold text-gray-800">
               Over 30 Years Of Experience
             </p>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
         {/* Ikkinchi karta */}
-        <Card className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-60 ">
-          <CardContent className="flex flex-col items-center gap-4">
+        <div className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-full sm:w-60 h-40">
+          <div className="flex flex-col items-center gap-4 h-full justify-center">
             <p className="text-lg font-semibold text-gray-800">
               Over 30 Years Of Experience
             </p>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
         {/* Uchinchi karta */}
-        <Card className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-60 ">
-          <CardContent className="flex flex-col items-center gap-4">
+        <div className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-full sm:w-60 h-40">
+          <div className="flex flex-col items-center gap-4 h-full justify-center">
             <p className="text-lg font-semibold text-gray-800">
               Expert Guides For You
             </p>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
         {/* To'rtinchi karta */}
-        <Card className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-60 ">
-          <CardContent className="flex flex-col items-center gap-4">
+        <div className="bg-orange-200 p-6 rounded-2xl shadow-lg text-center w-full sm:w-60 h-40">
+          <div className="flex flex-col items-center gap-4 h-full justify-center">
             <p className="text-lg font-semibold text-gray-800">
               Guaranteed fun at the best price!
             </p>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
       </div>
+
+
+
       <div className="w-full max-w-3xl mx-auto">
         <h2 className="text-center text-2xl font-bold mb-6">
           Happy Customers Says
         </h2>
-        <Carousel>
-          <CarouselContent>
-            <CarouselItem className="basis-1/2">
-              <div className="p-6 border rounded-lg shadow-md flex flex-col items-center space-y-4 ">
-                <div className="w-16 h-16 bg-gray-200 rounded-full" />
-                <h3 className="text-lg font-medium">Lyod Gomez</h3>
-                <p className="text-gray-600 text-center">
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder of human happiness.
-                </p>
-              </div>
-            </CarouselItem>
-            <CarouselItem className="basis-1/2">
+        
+        <Carousel className="p-6">
+          <CarouselContent className="flex">
+            <CarouselItem className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
               <div className="p-6 border rounded-lg shadow-md flex flex-col items-center space-y-4">
                 <div className="w-16 h-16 bg-gray-200 rounded-full" />
                 <h3 className="text-lg font-medium">Lyod Gomez</h3>
                 <p className="text-gray-600 text-center">
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder of human happiness.
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                 </p>
               </div>
             </CarouselItem>
-            <CarouselItem className="basis-1/2">
+            <CarouselItem className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
               <div className="p-6 border rounded-lg shadow-md flex flex-col items-center space-y-4">
                 <div className="w-16 h-16 bg-gray-200 rounded-full" />
                 <h3 className="text-lg font-medium">Lyod Gomez</h3>
                 <p className="text-gray-600 text-center">
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder of human happiness.
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                </p>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
+              <div className="p-6 border rounded-lg shadow-md flex flex-col items-center space-y-4">
+                <div className="w-16 h-16 bg-gray-200 rounded-full" />
+                <h3 className="text-lg font-medium">Lyod Gomez</h3>
+                <p className="text-gray-600 text-center">
+                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                 </p>
               </div>
             </CarouselItem>
           </CarouselContent>
         </Carousel>
+
+
       </div>
     </div>
   );
